@@ -1,10 +1,12 @@
 #!/usr/bin/python3
 
 """
+
 This script defines a method to determine whether the given data represents valid UTF-8 encoding.
 Method Prototype: def validUTF8(data)
 Returns True if the data is a valid UTF-8 encoding; otherwise, returns False.
 The dataset can contain multiple characters, and the data will be represented as a list of integers
+
 """
 
 
@@ -12,6 +14,7 @@ def validUTF8(data):
     """
     Method Prototype: def validUTF8(data)
     Returns True if the given data is a valid UTF-8 encoding; otherwise, returns False.
+
     """
     count = 0
 
@@ -35,3 +38,4 @@ def validUTF8(data):
         return False
 
     return True
+
